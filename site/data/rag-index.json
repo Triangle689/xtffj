@@ -1,0 +1,653 @@
+{
+ "version": 1,
+ "chunks": [
+  {
+   "id": "overview",
+   "anchor": "#top",
+   "kind": "overview",
+   "title": "网站总览",
+   "text": "本网站围绕烯烃复分解反应，梳理 1955–2024 年的研究脉络。共核实 45 篇文献（14 篇综述/专著/诺奖讲座，31 篇原始研究论文），收录 23 张取自原文的图。内容分为五个阶段：现象与机理之争（1955–1978）、结构确立（1980–1996）、工具化（1995–2004）、诺奖与体系化（2005–2010）、选择性时代（2011–2024）。此外还有催化剂谱系、文献总览、图片档案与文献缺口分析。",
+   "keys": "烯烃复分解 总览 简介 复分解 是什么"
+  },
+  {
+   "id": "phase-p1",
+   "anchor": "#phase-p1",
+   "kind": "phase",
+   "title": "1955–1978 现象 → 机理之争",
+   "text": "1955–1978，现象 → 机理之争。工业界先看到现象，学术界后给出解释。三家工业实验室各自在自己的装置里看到同一个现象：碳碳双键被切开又重新拼起来。它们一个叫歧化，一个叫开环聚合，没人意识到是同一件事。Goodyear 的 Calderon 用均匀催化体系把它从「工业怪现象」变成了「可研究的反应」，并给出了第一份定量证据——产物分布符合纯随机组合。随后 Chauvin 在没有直接证据的情况下提出金属亚烷基机理，Grubbs 与 Katz 两个课题组用同位素实验互相检验。核心进展：命名：Calderon 1967 提出 metathesis，并用 W/Al 均匀体系证明烷叉基互换。；定量：2-戊烯与 6-十二烯的产物分布与理想随机组合完全重合，排除链增长。；假设：Chauvin 1971 提出「金属亚烷基 + 金属杂环丁烷」，当时该物种尚无法分离。；互检：Grubbs 1972/1975 与 Katz 1975 用同位素标记给出两条独立证据链。一句话概括：现象先于概念，假设先于证据。",
+   "keys": "1955–1978 现象 → 机理之争 阶段 时期"
+  },
+  {
+   "id": "phase-p2",
+   "anchor": "#phase-p2",
+   "kind": "phase",
+   "title": "1980–1996 结构确立",
+   "text": "1980–1996，结构确立。把假说里的物种，做成一个可以设计的分子。Schrock 组用了十年，把「金属亚烷基」从纸面上的符号变成了可以分离、可以按配体设计的分子。1980 年的钨氧代亚烷基第一次给出明确结构，1990 年 Mo 亚烷基系列把结构-活性关系建立起来。与此同时 Grubbs 组把同样的思路搬到钌上：既然 Mo 的强亲氧性让它在空气里就失活，那就换一个不亲氧的金属——用「不活泼」去换「耐受」。核心进展：1980：钨氧代亚烷基配合物，第一次有明确结构的复分解催化剂。；1988–1990：W/Mo 亚烷基系列系统合成，1988 年 JACS 与 1990 年 JACS 两篇。；1995：Grubbs Ⅰ 代：PCy₃ 版 RuCl₂(=CHPh)(PCy₃)₂，活性与耐受兼得。；1996：配体效应系统研究，解释了Ⅰ 代为什么是这个结构。一句话概括：结构先于工具：没有可设计的分子，就没有后来的一切。",
+   "keys": "1980–1996 结构确立 阶段 时期"
+  },
+  {
+   "id": "phase-p3",
+   "anchor": "#phase-p3",
+   "kind": "phase",
+   "title": "1995–2004 工具化",
+   "text": "1995–2004，工具化。从「能反应」到「人人都能用」。有了可设计的分子，接下来是把它变成实验室里的常规试剂。1999 年 Grubbs 把 Ⅰ 代的一个 PCy₃ 换成 NHC（H₂IMes），Ⅱ 代诞生：给电子更强、引发更快、催化量降下来。同一年 Hoveyda 型把苄叉改成异丙氧基苄叉，让催化剂能空气稳定、可回收。2003 年的三卷本手册把这一代知识固化下来。核心进展：1999：Ⅱ 代：一个 PCy₃ 换成 H₂IMes，NHC 强 σ 给电子 + 大位阻。；1999–2000：Hoveyda 型：O→Ru 螯合「锁住」催化剂，空气稳定、可回收。；2003：《Handbook of Metathesis》三卷本出版，领域有了标准参考。一句话概括：催化的进步，往往发生在配体上而不是金属上。",
+   "keys": "1995–2004 工具化 阶段 时期"
+  },
+  {
+   "id": "phase-p4",
+   "anchor": "#phase-p4",
+   "kind": "phase",
+   "title": "2005–2010 诺奖与体系化",
+   "text": "2005–2010，诺奖与体系化。三个人改写同一件事的三个层次。2005 年诺贝尔化学奖颁给 Chauvin、Schrock、Grubbs——分别对应机理、结构、工具三个层次。这在诺奖史上并不常见：多数奖项只奖励一个层次。随后的几年里，两本 Chem. Rev. 综述与两版手册把散落在各组的催化剂编号、活性数据、分解路径整理成体系；Hoveyda 与 Zhugralin 在 Nature 上的综述则把应用侧（药物大环、天然产物）摊开给合成化学界看。核心进展：2005：诺奖：Chauvin 机理、Schrock 结构、Grubbs 工具，三者互补不可替代。；2006：三篇诺奖讲座：得主用第一人称讲自己那条线，包括当年的错误判断。；2007：Nature 综述：应用全景，含 BILN 2061 的 400 kg 工业规模。；2009–2010：两本 Chem. Rev. + 两版手册，把体系变成可查的教材。一句话概括：诺奖追认的是可被写进教科书的机制，不是被工厂采用的工艺。",
+   "keys": "2005–2010 诺奖与体系化 阶段 时期"
+  },
+  {
+   "id": "phase-p5",
+   "anchor": "#phase-p5",
+   "kind": "phase",
+   "title": "2011–2024 选择性时代",
+   "text": "2011–2024，选择性时代。问题从「能不能反应」变成「能不能定向」。Ⅱ 代解决了「能不能用」，但留下一个硬伤：交叉复分解的 E/Z 选择性基本是热力学平衡值。2011 年起，螯合配体（Grubbs 组）与大位阻芳氧基（Schrock/Hoveyda 组）两条路线几乎同时把 Z-选择性做到可控，并立刻用于大环天然产物合成。另一条支线把复分解用于「拆」：让交联网络可重排（vitrimer）、让聚烯烃解聚回单体。近年还有换金属（铁催化 ROMP）与加外场（光热激活）两条新方向。核心进展：2011：Z-选择性：Endo & Grubbs 螯合 Ru；Meek/Hoveyda 的 Z-选择性 CM。；2012–2013：改良版 Z-选择性 Ru 与「便宜版」设计，把选择性做成常规工具。；2012–2021：化学回收：vitrimer 可重排网络，熔环单体实现闭环解聚。；2022–2024：铁催化 ROMP、等离激元光热激活、立构受控 ADMET。一句话概括：工具先于控制：先有能用的催化剂，才谈得上定向。",
+   "keys": "2011–2024 选择性时代 阶段 时期"
+  },
+  {
+   "id": "paper-P01",
+   "anchor": "#paper-P01",
+   "kind": "paper",
+   "title": "Banks, R. L.; Bailey, G. C.（1964）",
+   "text": "Banks, R. L.; Bailey, G. C.. Olefin Disproportionation. A New Catalytic Process. Ind. Eng. Chem. Prod. Res. Dev. 1964, 3, 170–173. DOI 10.1021/i360011a002。类型：原始研究论文。为什么重要：乙烯→丙烯+丁烯，命名 disproportionation；工业侧最早系统报告。所属阶段：1 发现 1955–1978。",
+   "keys": "Banks, R. L.; Bailey, G. C. Olefin Disproportionation. A New Catalytic Process Ind. Eng. Chem. Prod. Res. Dev. 1964 乙烯→丙烯+丁烯，命名 disproportionation；工业侧最早系统报告"
+  },
+  {
+   "id": "paper-P02",
+   "anchor": "#paper-P02",
+   "kind": "paper",
+   "title": "Natta, G.; Dall'Asta, G.; Mazzanti, G.（1964）",
+   "text": "Natta, G.; Dall'Asta, G.; Mazzanti, G.. Stereospecific Homopolymerization of Cyclopentene. Angew. Chem. Int. Ed. 1964, 3, 723–729. DOI 10.1002/anie.196407231。类型：原始研究论文。为什么重要：WCl6/AlEtCl2 使环戊烯开环聚合；分子型催化剂起点。所属阶段：1 发现 1955–1978。",
+   "keys": "Natta, G.; Dall'Asta, G.; Mazzanti, G. Stereospecific Homopolymerization of Cyclopentene Angew. Chem. Int. Ed. 1964 WCl6/AlEtCl2 使环戊烯开环聚合；分子型催化剂起点"
+  },
+  {
+   "id": "paper-P03",
+   "anchor": "#paper-P03",
+   "kind": "paper",
+   "title": "Calderon, N.; Chen, H. Y.; Scott, K. W.（1967）",
+   "text": "Calderon, N.; Chen, H. Y.; Scott, K. W.. Olefin metathesis – A novel reaction for skeletal transformations. Tetrahedron Lett. 1967, 8, 3327–3329. DOI 10.1016/S0040-4039(01)89881-6。类型：原始研究论文。为什么重要：首次用 W/Al 均匀体系证明烷叉基互换并命名 metathesis。所属阶段：1 发现 1955–1978。",
+   "keys": "Calderon, N.; Chen, H. Y.; Scott, K. W. Olefin metathesis – A novel reaction for skeletal transformations Tetrahedron Lett. 1967 首次用 W/Al 均匀体系证明烷叉基互换并命名 metathesis"
+  },
+  {
+   "id": "paper-P04",
+   "anchor": "#paper-P04",
+   "kind": "paper",
+   "title": "Calderon, N.; Ofstead, E. A.; Ward, J. P.（1968）",
+   "text": "Calderon, N.; Ofstead, E. A.; Ward, J. P.. Olefin metathesis. I. Acyclic vinylenic hydrocarbons. J. Am. Chem. Soc. 1968, 90, 4133–4140. DOI 10.1021/ja01017a039。类型：原始研究论文。为什么重要：无环乙烯基化合物系统研究，确立为一类反应。所属阶段：1 发现 1955–1978。",
+   "keys": "Calderon, N.; Ofstead, E. A.; Ward, J. P. Olefin metathesis. I. Acyclic vinylenic hydrocarbons J. Am. Chem. Soc. 1968 无环乙烯基化合物系统研究，确立为一类反应"
+  },
+  {
+   "id": "paper-P05",
+   "anchor": "#paper-P05",
+   "kind": "paper",
+   "title": "Hérisson, J.-L.; Chauvin, Y.（1971）",
+   "text": "Hérisson, J.-L.; Chauvin, Y.. Catalyse de transformation des oléfines par les complexes du tungstène. II. Makromol. Chem. 1971, 141, 161–176. DOI 10.1002/macp.1971.021410112。类型：原始研究论文。为什么重要：金属亚烷基机理原始论文；当时无可分离的金属亚烷基。所属阶段：1 发现 1955–1978。",
+   "keys": "Hérisson, J.-L.; Chauvin, Y. Catalyse de transformation des oléfines par les complexes du tungstène. II Makromol. Chem. 1971 金属亚烷基机理原始论文；当时无可分离的金属亚烷基"
+  },
+  {
+   "id": "paper-P06",
+   "anchor": "#paper-P06",
+   "kind": "paper",
+   "title": "Grubbs, R. H.; Brunck, T. K.（1972）",
+   "text": "Grubbs, R. H.; Brunck, T. K.. Possible intermediate in the tungsten-catalyzed olefin metathesis reaction. J. Am. Chem. Soc. 1972, 94, 2538–2540. DOI 10.1021/ja00762a073。类型：原始研究论文。为什么重要：Grubbs 组最早的机理证据。所属阶段：1 发现 1955–1978。",
+   "keys": "Grubbs, R. H.; Brunck, T. K. Possible intermediate in the tungsten-catalyzed olefin metathesis reaction J. Am. Chem. Soc. 1972 Grubbs 组最早的机理证据"
+  },
+  {
+   "id": "paper-P07",
+   "anchor": "#paper-P07",
+   "kind": "paper",
+   "title": "Katz, T. J.; McGinnis, J.（1975）",
+   "text": "Katz, T. J.; McGinnis, J.. Mechanism of the olefin metathesis reaction. J. Am. Chem. Soc. 1975, 97, 1592–1594. DOI 10.1021/ja00839a063。类型：原始研究论文。为什么重要：与金属杂环戊烷路线正面交锋。所属阶段：1 发现 1955–1978。",
+   "keys": "Katz, T. J.; McGinnis, J. Mechanism of the olefin metathesis reaction J. Am. Chem. Soc. 1975 与金属杂环戊烷路线正面交锋"
+  },
+  {
+   "id": "paper-P08",
+   "anchor": "#paper-P08",
+   "kind": "paper",
+   "title": "Grubbs, R. H.; Burk, P. L.; Carr, D. D.（1975）",
+   "text": "Grubbs, R. H.; Burk, P. L.; Carr, D. D.. Mechanism of the olefin metathesis reaction. J. Am. Chem. Soc. 1975, 97, 3265–3267. DOI 10.1021/ja00844a082。类型：原始研究论文。为什么重要：同位素标记检验机理；与 Katz 篇构成两种解释。所属阶段：1 发现 1955–1978。",
+   "keys": "Grubbs, R. H.; Burk, P. L.; Carr, D. D. Mechanism of the olefin metathesis reaction J. Am. Chem. Soc. 1975 同位素标记检验机理；与 Katz 篇构成两种解释"
+  },
+  {
+   "id": "paper-P09",
+   "anchor": "#paper-P09",
+   "kind": "paper",
+   "title": "Tebbe, F. N.; Parshall, G. W.; Reddy, G. S.（1978）",
+   "text": "Tebbe, F. N.; Parshall, G. W.; Reddy, G. S.. Olefin homologation with titanium methylene compounds. J. Am. Chem. Soc. 1978, 100, 3611–3613. DOI 10.1021/ja00479a061。类型：原始研究论文。为什么重要：Tebbe 试剂：第一个可用亚甲基转移试剂。所属阶段：1 发现 1955–1978。",
+   "keys": "Tebbe, F. N.; Parshall, G. W.; Reddy, G. S. Olefin homologation with titanium methylene compounds J. Am. Chem. Soc. 1978 Tebbe 试剂：第一个可用亚甲基转移试剂"
+  },
+  {
+   "id": "paper-P10",
+   "anchor": "#paper-P10",
+   "kind": "paper",
+   "title": "Wengrovius, J. H.; Schrock, R. R. 等（1980）",
+   "text": "Wengrovius, J. H.; Schrock, R. R. 等. Multiple metal-carbon bonds. 16. Tungsten-oxo alkylidene complexes. J. Am. Chem. Soc. 1980, 102, 4515–4516. DOI 10.1021/ja00533a035。类型：原始研究论文。为什么重要：钨氧代亚烷基：第一次有明确结构的复分解催化剂。所属阶段：2 结构 1980–1996。",
+   "keys": "Wengrovius, J. H.; Schrock, R. R. 等 Multiple metal-carbon bonds. 16. Tungsten-oxo alkylidene complexes J. Am. Chem. Soc. 1980 钨氧代亚烷基：第一次有明确结构的复分解催化剂"
+  },
+  {
+   "id": "paper-P11",
+   "anchor": "#paper-P11",
+   "kind": "paper",
+   "title": "Schrock, R. R.; DePue, R. T.; Feldman, J. 等（1988）",
+   "text": "Schrock, R. R.; DePue, R. T.; Feldman, J. 等. Preparation and reactivity of several alkylidene complexes of the type W(CHR')(NAr)(OR)2. J. Am. Chem. Soc. 1988, 110, 1423–1435. DOI 10.1021/ja00213a014。类型：原始研究论文。为什么重要：W 亚烷基系列系统合成，结构-活性关系成形。所属阶段：2 结构 1980–1996。",
+   "keys": "Schrock, R. R.; DePue, R. T.; Feldman, J. 等 Preparation and reactivity of several alkylidene complexes of the type W(CHR')(NAr)(OR)2 J. Am. Chem. Soc. 1988 W 亚烷基系列系统合成，结构-活性关系成形"
+  },
+  {
+   "id": "paper-P12",
+   "anchor": "#paper-P12",
+   "kind": "paper",
+   "title": "Schrock, R. R.（1990）",
+   "text": "Schrock, R. R.. Living ring-opening metathesis polymerization catalyzed by well-characterized catalysts. Acc. Chem. Res. 1990, 23, 158–165. DOI 10.1021/ar00173a007。类型：综述/专著/诺奖讲座。为什么重要：活性 ROMP 与结构明确性的方法论总结。所属阶段：2 结构 1980–1996。",
+   "keys": "Schrock, R. R. Living ring-opening metathesis polymerization catalyzed by well-characterized catalysts Acc. Chem. Res. 1990 活性 ROMP 与结构明确性的方法论总结"
+  },
+  {
+   "id": "paper-P13",
+   "anchor": "#paper-P13",
+   "kind": "paper",
+   "title": "Schrock, R. R.; Murdzek, J. S.; Bazan, G. C. 等（1990）",
+   "text": "Schrock, R. R.; Murdzek, J. S.; Bazan, G. C. 等. Synthesis of molybdenum imido alkylidene complexes and some reactions. J. Am. Chem. Soc. 1990, 112, 3875–3886. DOI 10.1021/ja00166a023。类型：原始研究论文。为什么重要：Mo 亚烷基结构确立；机理由推断变成可设计分子。所属阶段：2 结构 1980–1996。",
+   "keys": "Schrock, R. R.; Murdzek, J. S.; Bazan, G. C. 等 Synthesis of molybdenum imido alkylidene complexes and some reactions J. Am. Chem. Soc. 1990 Mo 亚烷基结构确立；机理由推断变成可设计分子"
+  },
+  {
+   "id": "paper-P14",
+   "anchor": "#paper-P14",
+   "kind": "paper",
+   "title": "Schwab, P.; France, M. B.; Ziller, J. W.; Grubbs, R. H.（1995）",
+   "text": "Schwab, P.; France, M. B.; Ziller, J. W.; Grubbs, R. H.. A Series of Well-Defined Metathesis Catalysts – [RuCl2(=CHR')(PR3)2]. Angew. Chem. Int. Ed. 1995, 34, 2039–2041. DOI 10.1002/anie.199520391。类型：原始研究论文。为什么重要：Grubbs Ⅰ 代原始论文：活性与官能团耐受兼得。所属阶段：2 结构 1980–1996。",
+   "keys": "Schwab, P.; France, M. B.; Ziller, J. W.; Grubbs, R. H. A Series of Well-Defined Metathesis Catalysts – [RuCl2(=CHR')(PR3)2] Angew. Chem. Int. Ed. 1995 Grubbs Ⅰ 代原始论文：活性与官能团耐受兼得"
+  },
+  {
+   "id": "paper-P15",
+   "anchor": "#paper-P15",
+   "kind": "paper",
+   "title": "Schwab, P.; Grubbs, R. H.; Ziller, J. W.（1996）",
+   "text": "Schwab, P.; Grubbs, R. H.; Ziller, J. W.. Synthesis and Applications of RuCl2(=CHR')(PR3)2. J. Am. Chem. Soc. 1996, 118, 100–110. DOI 10.1021/ja952676d。类型：原始研究论文。为什么重要：配体效应系统研究：Ⅰ 代为什么长这样。所属阶段：2 结构 1980–1996。",
+   "keys": "Schwab, P.; Grubbs, R. H.; Ziller, J. W. Synthesis and Applications of RuCl2(=CHR')(PR3)2 J. Am. Chem. Soc. 1996 配体效应系统研究：Ⅰ 代为什么长这样"
+  },
+  {
+   "id": "paper-P16",
+   "anchor": "#paper-P16",
+   "kind": "paper",
+   "title": "Scholl, M.; Ding, S.; Lee, C. W.; Grubbs, R. H.（1999）",
+   "text": "Scholl, M.; Ding, S.; Lee, C. W.; Grubbs, R. H.. Synthesis and Activity of a New Generation of Ruthenium-Based Catalysts. Org. Lett. 1999, 1, 953–956. DOI 10.1021/ol990909q。类型：原始研究论文。为什么重要：Grubbs Ⅱ 代原始论文：一个 PCy3 换成 H2IMes。所属阶段：3 工具化 1999–2010。",
+   "keys": "Scholl, M.; Ding, S.; Lee, C. W.; Grubbs, R. H. Synthesis and Activity of a New Generation of Ruthenium-Based Catalysts Org. Lett. 1999 Grubbs Ⅱ 代原始论文：一个 PCy3 换成 H2IMes"
+  },
+  {
+   "id": "paper-P17",
+   "anchor": "#paper-P17",
+   "kind": "paper",
+   "title": "Trnka, T. M.; Grubbs, R. H.（2001）",
+   "text": "Trnka, T. M.; Grubbs, R. H.. The Development of L2X2Ru=CHR Olefin Metathesis Catalysts. Acc. Chem. Res. 2001, 34, 18–29. DOI 10.1021/ar000114f。类型：综述/专著/诺奖讲座。为什么重要：Ru 体系发展史与时间线（报告时间线图源）。所属阶段：3 工具化 1999–2010。",
+   "keys": "Trnka, T. M.; Grubbs, R. H. The Development of L2X2Ru=CHR Olefin Metathesis Catalysts Acc. Chem. Res. 2001 Ru 体系发展史与时间线（报告时间线图源）"
+  },
+  {
+   "id": "paper-P18",
+   "anchor": "#paper-P18",
+   "kind": "paper",
+   "title": "Chauvin, Y.（2006）",
+   "text": "Chauvin, Y.. Olefin Metathesis: The Early Days (Nobel Lecture). Angew. Chem. Int. Ed. 2006, 45, 3740–3747. DOI 10.1002/anie.200601234。类型：综述/专著/诺奖讲座。为什么重要：诺奖讲座：本人标注三条错路 WRONG TURNS。所属阶段：3 工具化 1999–2010。",
+   "keys": "Chauvin, Y. Olefin Metathesis: The Early Days (Nobel Lecture) Angew. Chem. Int. Ed. 2006 诺奖讲座：本人标注三条错路 WRONG TURNS"
+  },
+  {
+   "id": "paper-P19",
+   "anchor": "#paper-P19",
+   "kind": "paper",
+   "title": "Schrock, R. R.（2006）",
+   "text": "Schrock, R. R.. Multiple Metal–Carbon Bonds for Catalytic Metathesis Reactions (Nobel Lecture). Angew. Chem. Int. Ed. 2006, 45, 3748–3759. DOI 10.1002/anie.200600085。类型：综述/专著/诺奖讲座。为什么重要：诺奖讲座：金属-碳多重键到催化。所属阶段：3 工具化 1999–2010。",
+   "keys": "Schrock, R. R. Multiple Metal–Carbon Bonds for Catalytic Metathesis Reactions (Nobel Lecture) Angew. Chem. Int. Ed. 2006 诺奖讲座：金属-碳多重键到催化"
+  },
+  {
+   "id": "paper-P20",
+   "anchor": "#paper-P20",
+   "kind": "paper",
+   "title": "Grubbs, R. H.（2006）",
+   "text": "Grubbs, R. H.. Olefin-Metathesis Catalysts for the Preparation of Molecules and Materials (Nobel Lecture). Angew. Chem. Int. Ed. 2006, 45, 3760–3765. DOI 10.1002/anie.200600680。类型：综述/专著/诺奖讲座。为什么重要：诺奖讲座：催化剂设计与工业应用。所属阶段：3 工具化 1999–2010。",
+   "keys": "Grubbs, R. H. Olefin-Metathesis Catalysts for the Preparation of Molecules and Materials (Nobel Lecture) Angew. Chem. Int. Ed. 2006 诺奖讲座：催化剂设计与工业应用"
+  },
+  {
+   "id": "paper-P21",
+   "anchor": "#paper-P21",
+   "kind": "paper",
+   "title": "Hoveyda, A. H.; Zhugralin, A. R.（2007）",
+   "text": "Hoveyda, A. H.; Zhugralin, A. R.. The remarkable metal-catalysed olefin metathesis reaction. Nature 2007, 450, 243–251. DOI 10.1038/nature06351。类型：综述/专著/诺奖讲座。为什么重要：应用全景：BILN 2061 与天然产物。所属阶段：3 工具化 1999–2010。",
+   "keys": "Hoveyda, A. H.; Zhugralin, A. R. The remarkable metal-catalysed olefin metathesis reaction Nature 2007 应用全景：BILN 2061 与天然产物"
+  },
+  {
+   "id": "paper-P22",
+   "anchor": "#paper-P22",
+   "kind": "paper",
+   "title": "Samojłowicz, C.; Bieniek, M.; Grela, K.（2009）",
+   "text": "Samojłowicz, C.; Bieniek, M.; Grela, K.. Ruthenium-Based Olefin Metathesis Catalysts Bearing N-Heterocyclic Carbene Ligands. Chem. Rev. 2009, 109, 3708–3742. DOI 10.1021/cr800524f。类型：综述/专著/诺奖讲座。为什么重要：NHC–Ru 全谱系。所属阶段：3 工具化 1999–2010。",
+   "keys": "Samojłowicz, C.; Bieniek, M.; Grela, K. Ruthenium-Based Olefin Metathesis Catalysts Bearing N-Heterocyclic Carbene Ligands Chem. Rev. 2009 NHC–Ru 全谱系"
+  },
+  {
+   "id": "paper-P23",
+   "anchor": "#paper-P23",
+   "kind": "paper",
+   "title": "Vougioukalakis, G. C.; Grubbs, R. H.（2010）",
+   "text": "Vougioukalakis, G. C.; Grubbs, R. H.. Ruthenium-Based Heterocyclic Carbene-Coordinated Olefin Metathesis Catalysts. Chem. Rev. 2010, 110, 1746–1787. DOI 10.1021/cr9002424。类型：综述/专著/诺奖讲座。为什么重要：互补版本；催化循环图源。所属阶段：3 工具化 1999–2010。",
+   "keys": "Vougioukalakis, G. C.; Grubbs, R. H. Ruthenium-Based Heterocyclic Carbene-Coordinated Olefin Metathesis Catalysts Chem. Rev. 2010 互补版本；催化循环图源"
+  },
+  {
+   "id": "paper-P24",
+   "anchor": "#paper-P24",
+   "kind": "paper",
+   "title": "Lozano-Vila, A. M.; Monsaert, S.; Bajek, A.; Verpoort, F.（2010）",
+   "text": "Lozano-Vila, A. M.; Monsaert, S.; Bajek, A.; Verpoort, F.. Ruthenium-Based Olefin Metathesis Catalysts Derived from Alkynes. Chem. Rev. 2010, 110, 4865–4909. DOI 10.1021/cr900346r。类型：综述/专著/诺奖讲座。为什么重要：由炔烃制备 Ru 催化剂的独立路线。所属阶段：3 工具化 1999–2010。",
+   "keys": "Lozano-Vila, A. M.; Monsaert, S.; Bajek, A.; Verpoort, F. Ruthenium-Based Olefin Metathesis Catalysts Derived from Alkynes Chem. Rev. 2010 由炔烃制备 Ru 催化剂的独立路线"
+  },
+  {
+   "id": "paper-P25",
+   "anchor": "#paper-P25",
+   "kind": "paper",
+   "title": "Calderon, N.（1972）",
+   "text": "Calderon, N.. Olefin metathesis reaction. Acc. Chem. Res. 1972, 5, 127–132. DOI 10.1021/ar50052a002。类型：综述/专著/诺奖讲座。为什么重要：发现期定量证据与机理讨论（图源）。所属阶段：3 工具化 1999–2010。",
+   "keys": "Calderon, N. Olefin metathesis reaction Acc. Chem. Res. 1972 发现期定量证据与机理讨论（图源）"
+  },
+  {
+   "id": "paper-P26",
+   "anchor": "#paper-P26",
+   "kind": "paper",
+   "title": "Ivin, K. J.; Mol, J. C.（1997）",
+   "text": "Ivin, K. J.; Mol, J. C.. Olefin Metathesis and Metathesis Polymerization. Academic Press（专著） 1997, —, —. DOI 10.1016/B978-0-12-377045-5.X5000-9。类型：综述/专著/诺奖讲座。为什么重要：唯一权威教科书：反应类型与动力学总账。所属阶段：3 工具化 1999–2010。",
+   "keys": "Ivin, K. J.; Mol, J. C. Olefin Metathesis and Metathesis Polymerization Academic Press（专著） 1997 唯一权威教科书：反应类型与动力学总账"
+  },
+  {
+   "id": "paper-P27",
+   "anchor": "#paper-P27",
+   "kind": "paper",
+   "title": "Grubbs, R. H. (Ed.)（2003）",
+   "text": "Grubbs, R. H. (Ed.). Handbook of Metathesis (1st ed.). Wiley-VCH（专著，3 卷） 2003, —, —. DOI 10.1002/9783527619481。类型：综述/专著/诺奖讲座。为什么重要：2003 年时领域全貌。所属阶段：3 工具化 1999–2010。",
+   "keys": "Grubbs, R. H. (Ed.) Handbook of Metathesis (1st ed.) Wiley-VCH（专著，3 卷） 2003 2003 年时领域全貌"
+  },
+  {
+   "id": "paper-P28",
+   "anchor": "#paper-P28",
+   "kind": "paper",
+   "title": "Grubbs, R. H.; Wenzel, A. G. (Eds.)（2015）",
+   "text": "Grubbs, R. H.; Wenzel, A. G. (Eds.). Handbook of Metathesis (2nd ed.). Wiley-VCH（专著，3 卷） 2015, —, —. DOI 10.1002/9783527674107。类型：综述/专著/诺奖讲座。为什么重要：补入 2011 年后选择性工作。所属阶段：3 工具化 1999–2010。",
+   "keys": "Grubbs, R. H.; Wenzel, A. G. (Eds.) Handbook of Metathesis (2nd ed.) Wiley-VCH（专著，3 卷） 2015 补入 2011 年后选择性工作"
+  },
+  {
+   "id": "paper-P29",
+   "anchor": "#paper-P29",
+   "kind": "paper",
+   "title": "Endo, K.; Grubbs, R. H.（2011）",
+   "text": "Endo, K.; Grubbs, R. H.. Chelated Ruthenium Catalysts for Z-Selective Olefin Metathesis. J. Am. Chem. Soc. 2011, 133, 8525–8527. DOI 10.1021/ja202818v。类型：原始研究论文。为什么重要：Z-选择性 Ru 的起点：螯合配体把 Z 拉高。所属阶段：4 选择性 2011–2024。",
+   "keys": "Endo, K.; Grubbs, R. H. Chelated Ruthenium Catalysts for Z-Selective Olefin Metathesis J. Am. Chem. Soc. 2011 Z-选择性 Ru 的起点：螯合配体把 Z 拉高"
+  },
+  {
+   "id": "paper-P30",
+   "anchor": "#paper-P30",
+   "kind": "paper",
+   "title": "Keitz, B. K.; Endo, K.; Patel, P. R. 等（2012）",
+   "text": "Keitz, B. K.; Endo, K.; Patel, P. R. 等. Improved Ruthenium Catalysts for Z-Selective Olefin Metathesis. J. Am. Chem. Soc. 2012, 134, 693–699. DOI 10.1021/ja210225e。类型：原始研究论文。为什么重要：改进版 Z-选择性 Ru；活性与选择性同升。所属阶段：4 选择性 2011–2024。",
+   "keys": "Keitz, B. K.; Endo, K.; Patel, P. R. 等 Improved Ruthenium Catalysts for Z-Selective Olefin Metathesis J. Am. Chem. Soc. 2012 改进版 Z-选择性 Ru；活性与选择性同升"
+  },
+  {
+   "id": "paper-P31",
+   "anchor": "#paper-P31",
+   "kind": "paper",
+   "title": "Meek, S. J.; O'Brien, R. V.; Llaveria, J.; Schrock, R. R.; Hoveyda, A. H.（2011）",
+   "text": "Meek, S. J.; O'Brien, R. V.; Llaveria, J.; Schrock, R. R.; Hoveyda, A. H.. Catalytic Z-selective olefin cross-metathesis for natural product synthesis. Nature 2011, 471, 461–466. DOI 10.1038/nature09957。类型：原始研究论文。为什么重要：Z-选择性 CM 用于天然产物合成。所属阶段：4 选择性 2011–2024。",
+   "keys": "Meek, S. J.; O'Brien, R. V.; Llaveria, J.; Schrock, R. R.; Hoveyda, A. H. Catalytic Z-selective olefin cross-metathesis for natural product synthesis Nature 2011 Z-选择性 CM 用于天然产物合成"
+  },
+  {
+   "id": "paper-P32",
+   "anchor": "#paper-P32",
+   "kind": "paper",
+   "title": "Yu, M.; Wang, C.; Kyle, A. F. 等（2011）",
+   "text": "Yu, M.; Wang, C.; Kyle, A. F. 等. Synthesis of macrocyclic natural products by catalyst-controlled stereoselective RCM. Nature 2011, 479, 88–93. DOI 10.1038/nature10563。类型：原始研究论文。为什么重要：催化剂控制的大环天然产物合成。所属阶段：4 选择性 2011–2024。",
+   "keys": "Yu, M.; Wang, C.; Kyle, A. F. 等 Synthesis of macrocyclic natural products by catalyst-controlled stereoselective RCM Nature 2011 催化剂控制的大环天然产物合成"
+  },
+  {
+   "id": "paper-P33",
+   "anchor": "#paper-P33",
+   "kind": "paper",
+   "title": "Peryshkov, D. V.; Schrock, R. R.（2011）",
+   "text": "Peryshkov, D. V.; Schrock, R. R.. Z-Selective Olefin Metathesis Reactions Promoted by Tungsten. J. Am. Chem. Soc. 2011, 133, 20754–20757. DOI 10.1021/ja210349m。类型：原始研究论文。为什么重要：W 体系也能调 Z-选择性。所属阶段：4 选择性 2011–2024。",
+   "keys": "Peryshkov, D. V.; Schrock, R. R. Z-Selective Olefin Metathesis Reactions Promoted by Tungsten J. Am. Chem. Soc. 2011 W 体系也能调 Z-选择性"
+  },
+  {
+   "id": "paper-P34",
+   "anchor": "#paper-P34",
+   "kind": "paper",
+   "title": "Thomas, R. M.; Keitz, B. K.; Champagne, T. M.; Grubbs, R. H.（2011）",
+   "text": "Thomas, R. M.; Keitz, B. K.; Champagne, T. M.; Grubbs, R. H.. Highly Selective Ruthenium Metathesis Catalysts for Ethenolysis. J. Am. Chem. Soc. 2011, 133, 7490–7496. DOI 10.1021/ja200246e。类型：原始研究论文。为什么重要：乙烯解：内烯切成端烯，生物质方向。所属阶段：4 选择性 2011–2024。",
+   "keys": "Thomas, R. M.; Keitz, B. K.; Champagne, T. M.; Grubbs, R. H. Highly Selective Ruthenium Metathesis Catalysts for Ethenolysis J. Am. Chem. Soc. 2011 乙烯解：内烯切成端烯，生物质方向"
+  },
+  {
+   "id": "paper-P35",
+   "anchor": "#paper-P35",
+   "kind": "paper",
+   "title": "Keitz, B. K.; Bouffard, J.; Bertrand, G.; Grubbs, R. H.（2011）",
+   "text": "Keitz, B. K.; Bouffard, J.; Bertrand, G.; Grubbs, R. H.. Protonolysis of a Ruthenium–Carbene Bond and Applications in Olefin Metathesis. J. Am. Chem. Soc. 2011, 133, 8498–8501. DOI 10.1021/ja203070r。类型：原始研究论文。为什么重要：理解「催化剂怎么死」。所属阶段：4 选择性 2011–2024。",
+   "keys": "Keitz, B. K.; Bouffard, J.; Bertrand, G.; Grubbs, R. H. Protonolysis of a Ruthenium–Carbene Bond and Applications in Olefin Metathesis J. Am. Chem. Soc. 2011 理解「催化剂怎么死」"
+  },
+  {
+   "id": "paper-P36",
+   "anchor": "#paper-P36",
+   "kind": "paper",
+   "title": "Marx, V. M.; Herbert, M. B.; Keitz, B. K.; Grubbs, R. H.（2013）",
+   "text": "Marx, V. M.; Herbert, M. B.; Keitz, B. K.; Grubbs, R. H.. Stereoselective Access to Z and E Macrocycles. J. Am. Chem. Soc. 2013, 135, 94–97. DOI 10.1021/ja311241q。类型：原始研究论文。为什么重要：Z-选择性与底物控制的边界。所属阶段：4 选择性 2011–2024。",
+   "keys": "Marx, V. M.; Herbert, M. B.; Keitz, B. K.; Grubbs, R. H. Stereoselective Access to Z and E Macrocycles J. Am. Chem. Soc. 2013 Z-选择性与底物控制的边界"
+  },
+  {
+   "id": "paper-P37",
+   "anchor": "#paper-P37",
+   "kind": "paper",
+   "title": "Occhipinti, G.; Hansen, F. R. 等（2013）",
+   "text": "Occhipinti, G.; Hansen, F. R. 等. Simple and Highly Z-Selective Ruthenium-Based Olefin Metathesis Catalysts. J. Am. Chem. Soc. 2013, 135, 3331–3334. DOI 10.1021/ja311505v。类型：原始研究论文。为什么重要：把 Z-选择性设计做「便宜」。所属阶段：4 选择性 2011–2024。",
+   "keys": "Occhipinti, G.; Hansen, F. R. 等 Simple and Highly Z-Selective Ruthenium-Based Olefin Metathesis Catalysts J. Am. Chem. Soc. 2013 把 Z-选择性设计做「便宜」"
+  },
+  {
+   "id": "paper-P38",
+   "anchor": "#paper-P38",
+   "kind": "paper",
+   "title": "Koh, M. J.; Nguyen, T. T.; Zhang, H.; Schrock, R. R.; Hoveyda, A. H.（2016）",
+   "text": "Koh, M. J.; Nguyen, T. T.; Zhang, H.; Schrock, R. R.; Hoveyda, A. H.. Direct synthesis of Z-alkenyl halides through catalytic cross-metathesis. Nature 2016, 531, 459–465. DOI 10.1038/nature17396。类型：原始研究论文。为什么重要：Z-烯基卤化物的直接合成。所属阶段：4 选择性 2011–2024。",
+   "keys": "Koh, M. J.; Nguyen, T. T.; Zhang, H.; Schrock, R. R.; Hoveyda, A. H. Direct synthesis of Z-alkenyl halides through catalytic cross-metathesis Nature 2016 Z-烯基卤化物的直接合成"
+  },
+  {
+   "id": "paper-P39",
+   "anchor": "#paper-P39",
+   "kind": "paper",
+   "title": "Lu, Y.-X.; Tournilhac, F.; Leibler, L.; Guan, Z.（2012）",
+   "text": "Lu, Y.-X.; Tournilhac, F.; Leibler, L.; Guan, Z.. Making Insoluble Polymer Networks Malleable via Olefin Metathesis. J. Am. Chem. Soc. 2012, 134, 8424–8427. DOI 10.1021/ja303356z。类型：原始研究论文。为什么重要：复分解让交联网络可重排 → vitrimer。所属阶段：4 选择性 2011–2024。",
+   "keys": "Lu, Y.-X.; Tournilhac, F.; Leibler, L.; Guan, Z. Making Insoluble Polymer Networks Malleable via Olefin Metathesis J. Am. Chem. Soc. 2012 复分解让交联网络可重排 → vitrimer"
+  },
+  {
+   "id": "paper-P40",
+   "anchor": "#paper-P40",
+   "kind": "paper",
+   "title": "Sathe, D.; Zhou, J.; Chen, H. 等（2021）",
+   "text": "Sathe, D.; Zhou, J.; Chen, H. 等. Olefin metathesis-based chemically recyclable polymers enabled by fused-ring monomers. Nat. Chem. 2021, 13, 743–750. DOI 10.1038/s41557-021-00748-5。类型：原始研究论文。为什么重要：化学可回收聚合物：复分解解聚闭环。所属阶段：4 选择性 2011–2024。",
+   "keys": "Sathe, D.; Zhou, J.; Chen, H. 等 Olefin metathesis-based chemically recyclable polymers enabled by fused-ring monomers Nat. Chem. 2021 化学可回收聚合物：复分解解聚闭环"
+  },
+  {
+   "id": "paper-P41",
+   "anchor": "#paper-P41",
+   "kind": "paper",
+   "title": "Takebayashi, S.; Iron, M. A.; Feller, M. 等（2022）",
+   "text": "Takebayashi, S.; Iron, M. A.; Feller, M. 等. Iron-catalysed ring-opening metathesis polymerization. Nat. Catal. 2022, 5, 494–502. DOI 10.1038/s41929-022-00793-4。类型：原始研究论文。为什么重要：铁催化 ROMP：摆脱贵金属依赖。所属阶段：4 选择性 2011–2024。",
+   "keys": "Takebayashi, S.; Iron, M. A.; Feller, M. 等 Iron-catalysed ring-opening metathesis polymerization Nat. Catal. 2022 铁催化 ROMP：摆脱贵金属依赖"
+  },
+  {
+   "id": "paper-P42",
+   "anchor": "#paper-P42",
+   "kind": "paper",
+   "title": "Lemcoff, N.; Nechmad, N. B.; Eivgi, O. 等（2023）",
+   "text": "Lemcoff, N.; Nechmad, N. B.; Eivgi, O. 等. Plasmonic photothermal activation of olefin metathesis. Nat. Chem. 2023, 15, 475–482. DOI 10.1038/s41557-022-01124-7。类型：原始研究论文。为什么重要：光热激活：外场控制反应开关。所属阶段：4 选择性 2011–2024。",
+   "keys": "Lemcoff, N.; Nechmad, N. B.; Eivgi, O. 等 Plasmonic photothermal activation of olefin metathesis Nat. Chem. 2023 光热激活：外场控制反应开关"
+  },
+  {
+   "id": "paper-P43",
+   "anchor": "#paper-P43",
+   "kind": "paper",
+   "title": "Hsu, T.-W.; Kempel, S. J.; Felix, A. 等（2023）",
+   "text": "Hsu, T.-W.; Kempel, S. J.; Felix, A. 等. Stereocontrolled acyclic diene metathesis polymerization. Nat. Chem. 2023, 15, 14–20. DOI 10.1038/s41557-022-01060-6。类型：原始研究论文。为什么重要：立构受控 ADMET 聚合。所属阶段：4 选择性 2011–2024。",
+   "keys": "Hsu, T.-W.; Kempel, S. J.; Felix, A. 等 Stereocontrolled acyclic diene metathesis polymerization Nat. Chem. 2023 立构受控 ADMET 聚合"
+  },
+  {
+   "id": "paper-P44",
+   "anchor": "#paper-P44",
+   "kind": "paper",
+   "title": "Fürstner, A.（2013）",
+   "text": "Fürstner, A.. Teaching Metathesis \"Simple\" Stereochemistry. Science 2013, 341, 1229713. DOI 10.1126/science.1229713。类型：综述/专著/诺奖讲座。为什么重要：选择性问题的纲领性评论。所属阶段：4 选择性 2011–2024。",
+   "keys": "Fürstner, A. Teaching Metathesis \"Simple\" Stereochemistry Science 2013 选择性问题的纲领性评论"
+  },
+  {
+   "id": "paper-P45",
+   "anchor": "#paper-P45",
+   "kind": "paper",
+   "title": "Ibrahim, T.; Ritacco, A.; Nalley, D. 等（2024）",
+   "text": "Ibrahim, T.; Ritacco, A.; Nalley, D. 等. Chemical recycling of polyolefins via metathesis. Chem. Commun. 2024, 60, 1361–1371. DOI 10.1039/d3cc05612k。类型：原始研究论文。为什么重要：复分解路线化学回收聚烯烃最新总结。所属阶段：4 选择性 2011–2024。",
+   "keys": "Ibrahim, T.; Ritacco, A.; Nalley, D. 等 Chemical recycling of polyolefins via metathesis Chem. Commun. 2024 复分解路线化学回收聚烯烃最新总结"
+  },
+  {
+   "id": "fig-P1_F1",
+   "anchor": "#fig-P1_F1",
+   "kind": "figure",
+   "title": "图 Figure 1｜2-戊烯与 6-十二烯复分解：产物分布符合纯随机重排",
+   "text": "图 Figure 1，出自 N. Calderon, *Acc. Chem. Res.* **1972**, 5, 127-132.，原文第 129 页，章节「Random Distribution of Alkylidene Groups」。图注：2-戊烯与 6-十二烯复分解：产物分布符合纯随机重排。用法说明：封面后的第一张定量证据：实线是理想随机分布，点是实测值。讲“复分解 = 碎片随机组合”，关掉交换机制。。",
+   "keys": "Figure 1 2-戊烯与 6-十二烯复分解：产物分布符合纯随机重排 Calderon 1972 图"
+  },
+  {
+   "id": "fig-P1_F2",
+   "anchor": "#fig-P1_F2",
+   "kind": "figure",
+   "title": "图 Figure 2｜金属配体 SA/AS 电子重定位，使“准环丁烷”过渡态在轨道对称性上被允许",
+   "text": "图 Figure 2，出自 N. Calderon, *Acc. Chem. Res.* **1972**, 5, 127-132.，原文第 130 页，章节「The Transalkylidenation Step」。图注：金属配体 SA/AS 电子重定位，使“准环丁烷”过渡态在轨道对称性上被允许。用法说明：讲“为什么当时只能想到四元环”：四中心过渡态不是真环丁烷。一张图替代一段轨道对称性论证。。",
+   "keys": "Figure 2 金属配体 SA/AS 电子重定位，使“准环丁烷”过渡态在轨道对称性上被允许 Calderon 1972 图"
+  },
+  {
+   "id": "fig-P1_F3",
+   "anchor": "#fig-P1_F3",
+   "kind": "figure",
+   "title": "图 Figure 3｜四亚甲基-金属过渡态（A→B→C）",
+   "text": "图 Figure 3，出自 N. Calderon, *Acc. Chem. Res.* **1972**, 5, 127-132.，原文第 131 页，章节「The Transalkylidenation Step」。图注：四亚甲基-金属过渡态（A→B→C）。用法说明：与 F2 二选一；建议 F2 主用，F3 用于回答“那键是怎么断的”。。",
+   "keys": "Figure 3 四亚甲基-金属过渡态（A→B→C） Calderon 1972 图"
+  },
+  {
+   "id": "fig-P1_F4",
+   "anchor": "#fig-P1_F4",
+   "kind": "figure",
+   "title": "图 Figure 4｜索烃的生成：环形链经 360° 扭转与复分解缝合",
+   "text": "图 Figure 4，出自 N. Calderon, *Acc. Chem. Res.* **1972**, 5, 127-132.，原文第 132 页，章节「Macrocyclics and Catenanes」。图注：索烃的生成：环形链经 360° 扭转与复分解缝合。用法说明：讲“早期只当工业反应太可惜”的注脚；可作备讲页，呼应高分子主题。。",
+   "keys": "Figure 4 索烃的生成：环形链经 360° 扭转与复分解缝合 Calderon 1972 图"
+  },
+  {
+   "id": "fig-P2_F2",
+   "anchor": "#fig-P2_F2",
+   "kind": "figure",
+   "title": "图 Figure 2｜里程碑时间线：1956–2003 催化剂与机理的关键节点",
+   "text": "图 Figure 2，出自 T. M. Trnka, R. H. Grubbs, *Acc. Chem. Res.* **2001**, 34, 18-29.，原文第 19 页，章节「Background」。图注：里程碑时间线：1956–2003 催化剂与机理的关键节点。用法说明：全篇叙事骨架，用一页把 2005 诺奖前的五十年串起来。讲到哪一步就指哪一行。。",
+   "keys": "Figure 2 里程碑时间线：1956–2003 催化剂与机理的关键节点 Trnka & Grubbs 2001 图"
+  },
+  {
+   "id": "fig-P2_F3",
+   "anchor": "#fig-P2_F3",
+   "kind": "figure",
+   "title": "图 Figure 3｜Chauvin 提出的金属亚烷基（卡宾）+ 金属杂环丁烷机理",
+   "text": "图 Figure 3，出自 T. M. Trnka, R. H. Grubbs, *Acc. Chem. Res.* **2001**, 34, 18-29.，原文第 19 页，章节「Background」。图注：Chauvin 提出的金属亚烷基（卡宾）+ 金属杂环丁烷机理。用法说明：机理页的核心图；与 P3_F12 配合：这张给“结论”，P3_F12 给“为什么”。。",
+   "keys": "Figure 3 Chauvin 提出的金属亚烷基（卡宾）+ 金属杂环丁烷机理 Trnka & Grubbs 2001 图"
+  },
+  {
+   "id": "fig-P2_F6",
+   "anchor": "#fig-P2_F6",
+   "kind": "figure",
+   "title": "图 Figure 6｜Grubbs 催化剂的引发机理：膦解离型（A）与亚烷基/膦结合型 4 两条路",
+   "text": "图 Figure 6，出自 T. M. Trnka, R. H. Grubbs, *Acc. Chem. Res.* **2001**, 34, 18-29.，原文第 24 页，章节「Mechanistic Studies」。图注：Grubbs 催化剂的引发机理：膦解离型（A）与亚烷基/膦结合型 4 两条路。用法说明：解释“Ⅱ 代为什么更强却被苯乙烯卡住”：Hoveyda 型靠 O→Ru 解离引发。。",
+   "keys": "Figure 6 Grubbs 催化剂的引发机理：膦解离型（A）与亚烷基/膦结合型 4 两条路 Trnka & Grubbs 2001 图"
+  },
+  {
+   "id": "fig-P3_F8",
+   "anchor": "#fig-P3_F8",
+   "kind": "figure",
+   "title": "图 Figure 8｜初期的“错误转向”：环丁烷、四亚甲基、重排金属杂环戊烷中间体（后被否定）",
+   "text": "图 Figure 8，出自 Y. Chauvin, *Angew. Chem. Int. Ed.* **2006**, 45, 3740-3747（诺奖讲座）.，原文第 3744 页，章节「Olefin Metathesis: Discovery and First Achievements」。图注：初期的“错误转向”：环丁烷、四亚甲基、重排金属杂环戊烷中间体（后被否定）。用法说明：讲“四条路只有一条活下来”：三个被否定的中间体并列，比一段文字有力。。",
+   "keys": "Figure 8 初期的“错误转向”：环丁烷、四亚甲基、重排金属杂环戊烷中间体（后被否定） Chauvin 2006 图"
+  },
+  {
+   "id": "fig-P3_F12",
+   "anchor": "#fig-P3_F12",
+   "kind": "figure",
+   "title": "图 Figure 12｜一个卡宾机理统一三类反应：歧化、开环聚合、调聚",
+   "text": "图 Figure 12，出自 Y. Chauvin, *Angew. Chem. Int. Ed.* **2006**, 45, 3740-3747（诺奖讲座）.，原文第 3746 页，章节「Olefin Metathesis: Discovery and First Achievements」。图注：一个卡宾机理统一三类反应：歧化、开环聚合、调聚。用法说明：Chauvin 自己的示意（中性版机理），配色干净，适合投影；F8 与它相邻放。。",
+   "keys": "Figure 12 一个卡宾机理统一三类反应：歧化、开环聚合、调聚 Chauvin 2006 图"
+  },
+  {
+   "id": "fig-P4_F1",
+   "anchor": "#fig-P4_F1",
+   "kind": "figure",
+   "title": "图 Figure 1｜三类复分解的通用图式：交叉（CM）、关环（RCM）、开环/交叉（ROCM 型）",
+   "text": "图 Figure 1，出自 A. H. Hoveyda, A. R. Zhugralin, *Nature* **2007**, 450, 243-251.，原文第 243 页，章节「Olefin metathesis and its importance」。图注：三类复分解的通用图式：交叉（CM）、关环（RCM）、开环/交叉（ROCM 型）。用法说明：全篇第 2 页的“地图”：C1=C2 与 C3=C4 两个片段三种重新分配。宽幅图，用 fig_wide。。",
+   "keys": "Figure 1 三类复分解的通用图式：交叉（CM）、关环（RCM）、开环/交叉（ROCM 型） Hoveyda & Zhugralin 2007 图"
+  },
+  {
+   "id": "fig-P4_F2Achiral",
+   "anchor": "#fig-P4_F2Achiral",
+   "kind": "figure",
+   "title": "图 Figure 2 (top)｜无手性代表性催化剂：Mo 1、Ru 2（Grubbs I 型）、Ru 3（Hoveyda 型）",
+   "text": "图 Figure 2 (top)，出自 A. H. Hoveyda, A. R. Zhugralin, *Nature* **2007**, 450, 243-251.，原文第 244 页，章节「Catalysts that make it possible」。图注：无手性代表性催化剂：Mo 1、Ru 2（Grubbs I 型）、Ru 3（Hoveyda 型）。用法说明：页：前后周期对照——Mo 1 与 Ru 2/3 同框；Mes = 米基（mesityl）也在此定义。。",
+   "keys": "Figure 2 (top) 无手性代表性催化剂：Mo 1、Ru 2（Grubbs I 型）、Ru 3（Hoveyda 型） Hoveyda & Zhugralin 2007 图"
+  },
+  {
+   "id": "fig-P4_F2Chiral",
+   "anchor": "#fig-P4_F2Chiral",
+   "kind": "figure",
+   "title": "图 Figure 2 (bottom)｜手性代表性催化剂：手性 Mo 4、手性 Ru 5、受限构象 Ru 6",
+   "text": "图 Figure 2 (bottom)，出自 A. H. Hoveyda, A. R. Zhugralin, *Nature* **2007**, 450, 243-251.，原文第 244 页，章节「Catalysts that make it possible」。图注：手性代表性催化剂：手性 Mo 4、手性 Ru 5、受限构象 Ru 6。用法说明：页：立体选择性——手性配体把“哪个烯烃先反应”变成选择性工具。。",
+   "keys": "Figure 2 (bottom) 手性代表性催化剂：手性 Mo 4、手性 Ru 5、受限构象 Ru 6 Hoveyda & Zhugralin 2007 图"
+  },
+  {
+   "id": "fig-P4_F3A",
+   "anchor": "#fig-P4_F3A",
+   "kind": "figure",
+   "title": "图 Figure 3A｜关环复分解的通式机理：引发期 + 增长期，pathway a/b",
+   "text": "图 Figure 3A，出自 A. H. Hoveyda, A. R. Zhugralin, *Nature* **2007**, 450, 243-251.，原文第 245 页，章节「Catalytic ring-closing metathesis」。图注：关环复分解的通式机理：引发期 + 增长期，pathway a/b。用法说明：机理主场。讲清 pathway b：环内第二个 C=C 被裂解，这才是关环而非交叉。。",
+   "keys": "Figure 3A 关环复分解的通式机理：引发期 + 增长期，pathway a/b Hoveyda & Zhugralin 2007 图"
+  },
+  {
+   "id": "fig-P4_F3B",
+   "anchor": "#fig-P4_F3B",
+   "kind": "figure",
+   "title": "图 Figure 3B｜关环复分解合成天然产物：黄曲霉毒素 fl uvirucin B1（92%）与 cylindrocyclophane F（72%）",
+   "text": "图 Figure 3B，出自 A. H. Hoveyda, A. R. Zhugralin, *Nature* **2007**, 450, 243-251.，原文第 245 页，章节「Catalytic ring-closing metathesis」。图注：关环复分解合成天然产物：黄曲霉毒素 fl uvirucin B1（92%）与 cylindrocyclophane F（72%）。用法说明：证明“反应有用”：一步关 14 元环。可与 P4_F8 合并成“应用”页。。",
+   "keys": "Figure 3B 关环复分解合成天然产物：黄曲霉毒素 fl uvirucin B1（92%）与 cylindrocyclophane F（72%） Hoveyda & Zhugralin 2007 图"
+  },
+  {
+   "id": "fig-P4_F8",
+   "anchor": "#fig-P4_F8",
+   "kind": "figure",
+   "title": "图 Figure 8｜工业级应用：BILN 2061（丙型肝炎药物）核心环 400 kg 规模，83%，>99% 顺式",
+   "text": "图 Figure 8，出自 A. H. Hoveyda, A. R. Zhugralin, *Nature* **2007**, 450, 243-251.，原文第 248 页，章节「Catalytic olefin metathesis and a better quality of life」。图注：工业级应用：BILN 2061（丙型肝炎药物）核心环 400 kg 规模，83%，>99% 顺式。用法说明：“学术反应 → 工业资产”的最强证据；讲选择性（>99% cis）与放大。。",
+   "keys": "Figure 8 工业级应用：BILN 2061（丙型肝炎药物）核心环 400 kg 规模，83%，>99% 顺式 Hoveyda & Zhugralin 2007 图"
+  },
+  {
+   "id": "fig-P5_F2",
+   "anchor": "#fig-P5_F2",
+   "kind": "figure",
+   "title": "图 Figure 2｜第二代商品化催化剂（Grubbs II，7）：一个 PCy3 换成 NHC",
+   "text": "图 Figure 2，出自 R. H. Grubbs, *Angew. Chem. Int. Ed.* **2006**, 45, 3760-3765（诺奖讲座）.，原文第 3763 页，章节「第二章」。图注：第二代商品化催化剂（Grubbs II，7）：一个 PCy3 换成 NHC。用法说明：“换一个配体 = 换一代催化剂”的视觉证据；配合 P6_F2 讲 H2IMes。。",
+   "keys": "Figure 2 第二代商品化催化剂（Grubbs II，7）：一个 PCy3 换成 NHC Grubbs 2006 图"
+  },
+  {
+   "id": "fig-P7_S7",
+   "anchor": "#fig-P7_S7",
+   "kind": "figure",
+   "title": "图 Scheme 7｜无溶剂交叉复分解制备“绿色”化合物：1-己烯 + 乙酸己烯酯",
+   "text": "图 Scheme 7，出自 R. H. Grubbs, *Angew. Chem. Int. Ed.* **2006**, 45, 3760-3765（诺奖讲座）.，原文第 3764 页，章节「第二章」。图注：无溶剂交叉复分解制备“绿色”化合物：1-己烯 + 乙酸己烯酯。用法说明：讲交叉复分解为什么难：50% 收率、85:15 E/Z——同源二聚竞争。。",
+   "keys": "Scheme 7 无溶剂交叉复分解制备“绿色”化合物：1-己烯 + 乙酸己烯酯 Grubbs 2006 图"
+  },
+  {
+   "id": "fig-P5_S3",
+   "anchor": "#fig-P5_S3",
+   "kind": "figure",
+   "title": "图 Scheme 3｜复分解的基准反应：RCM / CM / 烯炔 RCM / ROMOP / ROMP",
+   "text": "图 Scheme 3，出自 C. Samojłowicz, M. Bieniek, K. Grela, *Chem. Rev.* **2009**, 109, 3708-3742.，原文第 3710 页，章节「2. Early Ruthenium Alkylidene Complexes」。图注：复分解的基准反应：RCM / CM / 烯炔 RCM / ROMOP / ROMP。用法说明：一页建立“五类反应”的共同语法；备讲页，时间紧可跳过。。",
+   "keys": "Scheme 3 复分解的基准反应：RCM / CM / 烯炔 RCM / ROMOP / ROMP Samojłowicz et al. 2009 图"
+  },
+  {
+   "id": "fig-P5_S4",
+   "anchor": "#fig-P5_S4",
+   "kind": "figure",
+   "title": "图 Scheme 4｜含 Ru 预催化剂的完整催化循环：引发（两条路）+ 增长",
+   "text": "图 Scheme 4，出自 C. Samojłowicz, M. Bieniek, K. Grela, *Chem. Rev.* **2009**, 109, 3708-3742.，原文第 3711 页，章节「3. Modern Ruthenium Alkylidene Complexes」。图注：含 Ru 预催化剂的完整催化循环：引发（两条路）+ 增长。用法说明：机理页首选：同一张图同框给出引发与增长，箭头清楚。。",
+   "keys": "Scheme 4 含 Ru 预催化剂的完整催化循环：引发（两条路）+ 增长 Samojłowicz et al. 2009 图"
+  },
+  {
+   "id": "fig-P6_F2",
+   "anchor": "#fig-P6_F2",
+   "kind": "figure",
+   "title": "图 Figure 2｜首批只含一个 NHC 的催化剂（15 Fürstner–Herrmann，16 Nolan–Grubbs，17 Grubbs）",
+   "text": "图 Figure 2，出自 C. Samojłowicz, M. Bieniek, K. Grela, *Chem. Rev.* **2009**, 109, 3708-3742.，原文第 3711 页，章节「3. Modern Ruthenium Alkylidene Complexes」。图注：首批只含一个 NHC 的催化剂（15 Fürstner–Herrmann，16 Nolan–Grubbs，17 Grubbs）。用法说明：“NHC 时代”起点；与 P5_F2 合看：7/17 即 Grubbs II 的结构式。。",
+   "keys": "Figure 2 首批只含一个 NHC 的催化剂（15 Fürstner–Herrmann，16 Nolan–Grubbs，17 Grubbs） Samojłowicz et al. 2009 图"
+  },
+  {
+   "id": "fig-P7_F1",
+   "anchor": "#fig-P7_F1",
+   "kind": "figure",
+   "title": "图 Figure 1｜第一代商品化催化剂 Grubbs I（6）：RuCl2(=CHPh)(PCy3)2 的原图",
+   "text": "图 Figure 1，出自 G. C. Vougioukalakis, R. H. Grubbs, *Chem. Rev.* **2010**, 110, 1746-1787.，原文第 3763 页，章节「第二章（Grubbs 诺奖讲座）」。图注：第一代商品化催化剂 Grubbs I（6）：RuCl2(=CHPh)(PCy3)2 的原图。用法说明：“一代/二代同框”的左半边；与 P7_F2 成对使用。。",
+   "keys": "Figure 1 第一代商品化催化剂 Grubbs I（6）：RuCl2(=CHPh)(PCy3)2 的原图 Vougioukalakis & Grubbs 2010 图"
+  },
+  {
+   "id": "fig-P7_F2",
+   "anchor": "#fig-P7_F2",
+   "kind": "figure",
+   "title": "图 Figure 2｜一代（2/4）与二代（3/5）Ru 催化剂；H2IMes 的结构",
+   "text": "图 Figure 2，出自 G. C. Vougioukalakis, R. H. Grubbs, *Chem. Rev.* **2010**, 110, 1746-1787.，原文第 1748 页，章节「2. Introduction to the Use of HCs」。图注：一代（2/4）与二代（3/5）Ru 催化剂；H2IMes 的结构。用法说明：把“一代/二代 = 同一骨架换一个配体”讲成一句话；H2IMes 定义放在这里。。",
+   "keys": "Figure 2 一代（2/4）与二代（3/5）Ru 催化剂；H2IMes 的结构 Vougioukalakis & Grubbs 2010 图"
+  },
+  {
+   "id": "fig-P6_S1",
+   "anchor": "#fig-P6_S1",
+   "kind": "figure",
+   "title": "图 Scheme 1｜复分解的催化循环（金属亚烷基 + 金属杂环丁烷）",
+   "text": "图 Scheme 1，出自 G. C. Vougioukalakis, R. H. Grubbs, *Chem. Rev.* **2010**, 110, 1746-1787.，原文第 1747 页，章节「1. Brief Introduction to Olefin Metathesis」。图注：复分解的催化循环（金属亚烷基 + 金属杂环丁烷）。用法说明：机理备选图；与 P6_S4 同源，选一张即可。。",
+   "keys": "Scheme 1 复分解的催化循环（金属亚烷基 + 金属杂环丁烷） Vougioukalakis & Grubbs 2010 图"
+  },
+  {
+   "id": "gap-g1",
+   "anchor": "#gaps",
+   "kind": "gap",
+   "title": "文献缺口 01：零原始文献",
+   "text": "缺口01：零原始文献。文档 11 条全部是综述、专著或诺奖讲座，没有一篇原始研究论文。研讨文档 9 个引导问题里的第 1、2、3 问（谁发现、谁解释、谁证实）答案只在原始论文里，综述只能给结论，给不了「他当时面对什么反证」。本次处理：本次补入 31 篇原始论文，按阶段贯穿 1955–2024。",
+   "keys": "缺口 文档 清单 不足 缺什么"
+  },
+  {
+   "id": "gap-g2",
+   "anchor": "#gaps",
+   "kind": "gap",
+   "title": "文献缺口 02：断代 1995 前后",
+   "text": "缺口02：断代 1995 前后。Grubbs Ⅰ 代（1995 Angew）、Ⅱ 代（1999 Org. Lett.）、Hoveyda 型（1999 JOC / 2000 JACS）三篇都不在清单里，而它们正是文档子题 3「后周期金属催化剂」的全部内容。本次处理：补入第 14、15、16 篇，并配 Ⅰ 代/Ⅱ 代结构图对照。",
+   "keys": "缺口 文档 清单 不足 缺什么"
+  },
+  {
+   "id": "gap-g3",
+   "anchor": "#gaps",
+   "kind": "gap",
+   "title": "文献缺口 03：止于 2010",
+   "text": "缺口03：止于 2010。清单最晚一篇是 2010 年。而文档子题 4 问「Z/E 选择性如何调控」——Z-选择性整个是 2011 年之后的成果；化学回收、铁催化、光热激活同样缺席。本次处理：补入 2011–2024 年 17 篇，含 4 篇 Nature/Nat. Chem./Nat. Catal.。",
+   "keys": "缺口 文档 清单 不足 缺什么"
+  },
+  {
+   "id": "gap-g4",
+   "anchor": "#gaps",
+   "kind": "gap",
+   "title": "文献缺口 04：中文文献无法核实",
+   "text": "缺口04：中文文献无法核实。《有机化学》2001/2001/2005/2010/2020 五条，Crossref 未收录，本次未能取得 DOI 与页码核对。建议按 CNKI 或纸质目录核对后再引用。本次处理：站内对这 5 条做了明确标注，不提供 DOI 链接。",
+   "keys": "缺口 文档 清单 不足 缺什么"
+  },
+  {
+   "id": "gaps-summary",
+   "anchor": "#gaps",
+   "kind": "gap",
+   "title": "文献缺口总结",
+   "text": "研讨文档原列 11 条文献，全部是综述、专著或诺奖讲座，原始研究论文 0 篇。四个缺口：零原始文献、断代 1995 前后、止于 2010、中文文献无法核实。本次共补入 38 篇，总数达到 45 篇。",
+   "keys": "缺口 文档 11条 原始文献 不足"
+  },
+  {
+   "id": "catalysts",
+   "anchor": "#catalysts",
+   "kind": "catalyst",
+   "title": "催化剂谱系",
+   "text": "催化剂谱系收录三代代表性结构：无手性代表（Mo 1、Ru 2、Ru 3）、手性代表（Mo 4、Ru 5、Ru 6）、Grubbs Ⅰ 代（6）、Grubbs Ⅱ 代（7）与 H₂IMes 配体、Ⅱ 代的商品化形态，以及首批只含一个 NHC 的催化剂（15–17）。设计线索：Mo 给结构与高活性，Ru 给耐受，NHC 给引发速率，手性配体给选择性。",
+   "keys": "催化剂 谱系 Grubbs Schrock Hoveyda NHC 配体"
+  },
+  {
+   "id": "method",
+   "anchor": "#method",
+   "kind": "method",
+   "title": "方法与出处",
+   "text": "23 张图均从原文 PDF 以 450 dpi 裁出，去除图注与页眉，未重绘。45 篇文献经 Crossref 逐条核实题名、刊名、卷、页、年份。《有机化学》5 条 Crossref 未收录，标注为待核实且不提供 DOI 链接。AI 问答只使用站内文本作答，站内没有的内容会直接说明没有。",
+   "keys": "方法 出处 来源 怎么做的 核实"
+  }
+ ]
+}

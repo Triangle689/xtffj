@@ -1,0 +1,26 @@
+﻿# 原始文献 PDF：受出版社版权限制，不入库
+pdf/
+主题汇总.pdf
+
+# 构建中间产物与本地自测
+_spec/
+_work/
+_qa/
+node_modules/
+*.spec.json
+
+# 课件与临时脚本
+*.pptx
+_work/
+_lit_probe*.py
+_cors_probe.py
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 工具产物
+.dsh-vision-router/
+__pycache__/
+*.pyc
