@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Render site/index.html from site/data/site.json (pre-rendered, no-JS readable)."""
 import html
 import json
@@ -374,7 +374,7 @@ def main():
     <button class="x" type="button" data-close aria-label="关闭">✕</button>
     <button class="lb-nav lb-prev" type="button" id="lbPrev" aria-label="上一张">‹</button>
     <button class="lb-nav lb-next" type="button" id="lbNext" aria-label="下一张">›</button>
-    <img id="lbImg" src="" alt="">
+    <img id="lbImg" alt="">
     <div class="lb-cap">
       <div class="k" id="lbK"></div>
       <div class="c" id="lbC"></div>
@@ -436,3 +436,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
