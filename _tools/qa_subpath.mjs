@@ -79,7 +79,7 @@ const probe = await send("Runtime.evaluate", {
       rows: document.querySelectorAll('#pBody tr').length,
       figs: document.querySelectorAll('.fig, .cat').length,
       imgTotal: imgs.length,
-      imgBroken: broken,
+      imgBrokenCount: broken.length,
       searchRes,
       aiOk: ai.gate.ok,
       aiTop: ai.hits[0] ? ai.hits[0].title : null,
@@ -95,10 +95,11 @@ await send("Runtime.evaluate", { expression: "window.openFigure('P3_F12')" });
 await sleep(700);
 const lb = await send("Runtime.evaluate", {
   returnByValue: true,
-  expression: "(() => { const i = document.getElementById('lbImg'); return {src: i.getAttribute('src'), w: i.naturalWidth, ok: i.complete && i.naturalWidth>0}; })()",
+  expression: "(() => { const i = document.getElementById('lbImg'); const s = i.getAttribute('src')||''; return {kind: s.slice(0,22), len: s.length, w: i.naturalWidth, ok: i.complete && i.naturalWidth>0}; })()",
 });
 console.log("lightbox:", JSON.stringify(lb.result.value));
 
 ws.close(); try { child.kill(); } catch {}
 process.exit(0);
+
 

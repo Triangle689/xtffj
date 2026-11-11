@@ -1,4 +1,4 @@
-/* ===========================================================================
+﻿/* ===========================================================================
    app.js — 站点交互：进度条 / 导航高亮 / 站内搜索 / 图鉴 / 文献详情 / 筛选
    =========================================================================== */
 (function () {
@@ -262,7 +262,7 @@
       var f = figIndex[fid];
       if (!f) return;
       cur = figOrder.indexOf(fid);
-      img.src = "assets/img/" + f.file;
+      img.src = (window.__imgFor && window.__imgFor(f.file)) || ("assets/img/" + f.file);
       img.alt = f.caption;
       $("#lbK").textContent = "图 " + f.no + " · " + f.figNo + " · 原文第 " + f.docPage + " 页";
       $("#lbC").textContent = f.caption;
@@ -478,3 +478,4 @@
         + "直接双击打开 HTML 时浏览器会拦截 fetch。</p>");
     });
 })();
+

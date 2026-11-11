@@ -56,7 +56,7 @@ def main():
       <figure class="fig{' fig-lead' if lead else ''}" id="fig-{f['id']}">
         <button class="fig-img" type="button" data-open-fig="{f['id']}"
                 aria-label="放大查看图 {f['no']}">
-          <img src="assets/img/{f['file']}" alt="{esc(f['caption'])}"
+          <img data-img="{f['file']}" src="assets/img/{f['file']}" alt="{esc(f['caption'])}"
                width="{w}" height="{h}" loading="lazy" decoding="async">
           <span class="zoom">点击放大</span>
         </button>
@@ -120,7 +120,7 @@ def main():
         cats.append(f"""
         <article class="cat">
           <button class="fig-img" type="button" data-open-fig="{f['id']}" aria-label="放大查看">
-            <img src="assets/img/{f['file']}" alt="{esc(f['caption'])}" width="{w}" height="{h}"
+            <img data-img="{f['file']}" src="assets/img/{f['file']}" alt="{esc(f['caption'])}" width="{w}" height="{h}"
                  loading="lazy" decoding="async">
             <span class="zoom">点击放大</span>
           </button>
@@ -436,4 +436,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

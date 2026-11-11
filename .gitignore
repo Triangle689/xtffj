@@ -24,3 +24,6 @@ desktop.ini
 .dsh-vision-router/
 __pycache__/
 *.pyc
+
+# 单文件产物（由 _tools/build_single.py 生成）
+烯烃复分解.html
